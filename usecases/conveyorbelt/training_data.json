@@ -1,0 +1,702 @@
+[
+  {
+    "_id": 1,
+    "Vibration": 4.894,
+    "Temperature": 117.8,
+    "Speed": 2054.0,
+    "PowerConsumption": 198.88
+  },
+  {
+    "_id": 2,
+    "Vibration": 1.678,
+    "Temperature": 111.1,
+    "Speed": 2715.0,
+    "PowerConsumption": 463.59
+  },
+  {
+    "_id": 3,
+    "Vibration": 1.676,
+    "Temperature": 23.5,
+    "Speed": 3821.0,
+    "PowerConsumption": 443.99
+  },
+  {
+    "_id": 4,
+    "Vibration": 1.47,
+    "Temperature": 107.1,
+    "Speed": 3745.0,
+    "PowerConsumption": 338.99
+  },
+  {
+    "_id": 5,
+    "Vibration": 3.381,
+    "Temperature": 99.5,
+    "Speed": 2161.0,
+    "PowerConsumption": 271.03
+  },
+  {
+    "_id": 6,
+    "Vibration": 0.678,
+    "Temperature": 101.6,
+    "Speed": 2322.0,
+    "PowerConsumption": 226.08
+  },
+  {
+    "_id": 7,
+    "Vibration": 3.491,
+    "Temperature": 25.6,
+    "Speed": 4164.0,
+    "PowerConsumption": 499.21
+  },
+  {
+    "_id": 8,
+    "Vibration": 3.179,
+    "Temperature": 93.1,
+    "Speed": 1064.0,
+    "PowerConsumption": 392.1
+  },
+  {
+    "_id": 9,
+    "Vibration": 3.891,
+    "Temperature": 31.8,
+    "Speed": 3570.0,
+    "PowerConsumption": 449.59
+  },
+  {
+    "_id": 10,
+    "Vibration": 4.919,
+    "Temperature": 62.1,
+    "Speed": 3725.0,
+    "PowerConsumption": 390.89
+  },
+  {
+    "_id": 11,
+    "Vibration": 4.62,
+    "Temperature": 114.7,
+    "Speed": 909.0,
+    "PowerConsumption": 291.4
+  },
+  {
+    "_id": 12,
+    "Vibration": 3.358,
+    "Temperature": 115.5,
+    "Speed": 1224.0,
+    "PowerConsumption": 295.24
+  },
+  {
+    "_id": 13,
+    "Vibration": 0.633,
+    "Temperature": 67.9,
+    "Speed": 1654.0,
+    "PowerConsumption": 80.48
+  },
+  {
+    "_id": 14,
+    "Vibration": 4.105,
+    "Temperature": 42.0,
+    "Speed": 2367.0,
+    "PowerConsumption": 405.03
+  },
+  {
+    "_id": 15,
+    "Vibration": 0.492,
+    "Temperature": 61.8,
+    "Speed": 3116.0,
+    "PowerConsumption": 458.84
+  },
+  {
+    "_id": 16,
+    "Vibration": 0.777,
+    "Temperature": 116.0,
+    "Speed": 3280.0,
+    "PowerConsumption": 461.53
+  },
+  {
+    "_id": 17,
+    "Vibration": 2.617,
+    "Temperature": 51.3,
+    "Speed": 1825.0,
+    "PowerConsumption": 82.8
+  },
+  {
+    "_id": 18,
+    "Vibration": 4.064,
+    "Temperature": 61.0,
+    "Speed": 4557.0,
+    "PowerConsumption": 99.16
+  },
+  {
+    "_id": 19,
+    "Vibration": 4.225,
+    "Temperature": 91.3,
+    "Speed": 1708.0,
+    "PowerConsumption": 154.12
+  },
+  {
+    "_id": 20,
+    "Vibration": 3.4,
+    "Temperature": 37.6,
+    "Speed": 3494.0,
+    "PowerConsumption": 443.82
+  },
+  {
+    "_id": 21,
+    "Vibration": 0.26,
+    "Temperature": 31.7,
+    "Speed": 541.0,
+    "PowerConsumption": 179.86
+  },
+  {
+    "_id": 22,
+    "Vibration": 3.975,
+    "Temperature": 55.6,
+    "Speed": 1198.0,
+    "PowerConsumption": 60.64
+  },
+  {
+    "_id": 23,
+    "Vibration": 4.835,
+    "Temperature": 100.5,
+    "Speed": 1316.0,
+    "PowerConsumption": 144.89
+  },
+  {
+    "_id": 24,
+    "Vibration": 1.272,
+    "Temperature": 23.2,
+    "Speed": 3540.0,
+    "PowerConsumption": 248.48
+  },
+  {
+    "_id": 25,
+    "Vibration": 3.78,
+    "Temperature": 69.9,
+    "Speed": 3161.0,
+    "PowerConsumption": 254.66
+  },
+  {
+    "_id": 26,
+    "Vibration": 1.697,
+    "Temperature": 45.5,
+    "Speed": 2626.0,
+    "PowerConsumption": 102.59
+  },
+  {
+    "_id": 27,
+    "Vibration": 1.97,
+    "Temperature": 96.8,
+    "Speed": 1680.0,
+    "PowerConsumption": 226.25
+  },
+  {
+    "_id": 28,
+    "Vibration": 4.296,
+    "Temperature": 25.9,
+    "Speed": 1176.0,
+    "PowerConsumption": 254.04
+  },
+  {
+    "_id": 29,
+    "Vibration": 3.634,
+    "Temperature": 53.8,
+    "Speed": 518.0,
+    "PowerConsumption": 200.57
+  },
+  {
+    "_id": 30,
+    "Vibration": 0.911,
+    "Temperature": 86.7,
+    "Speed": 1623.0,
+    "PowerConsumption": 222.24
+  },
+  {
+    "_id": 31,
+    "Vibration": 4.819,
+    "Temperature": 44.6,
+    "Speed": 1563.0,
+    "PowerConsumption": 375.15
+  },
+  {
+    "_id": 32,
+    "Vibration": 1.664,
+    "Temperature": 32.9,
+    "Speed": 1098.0,
+    "PowerConsumption": 352.79
+  },
+  {
+    "_id": 33,
+    "Vibration": 3.368,
+    "Temperature": 24.9,
+    "Speed": 899.0,
+    "PowerConsumption": 349.25
+  },
+  {
+    "_id": 34,
+    "Vibration": 1.049,
+    "Temperature": 60.0,
+    "Speed": 2249.0,
+    "PowerConsumption": 106.42
+  },
+  {
+    "_id": 35,
+    "Vibration": 3.694,
+    "Temperature": 116.3,
+    "Speed": 4558.0,
+    "PowerConsumption": 434.38
+  },
+  {
+    "_id": 36,
+    "Vibration": 4.343,
+    "Temperature": 21.7,
+    "Speed": 3221.0,
+    "PowerConsumption": 97.04
+  },
+  {
+    "_id": 37,
+    "Vibration": 2.689,
+    "Temperature": 34.1,
+    "Speed": 1026.0,
+    "PowerConsumption": 174.89
+  },
+  {
+    "_id": 38,
+    "Vibration": 1.521,
+    "Temperature": 23.0,
+    "Speed": 3868.0,
+    "PowerConsumption": 422.03
+  },
+  {
+    "_id": 39,
+    "Vibration": 0.646,
+    "Temperature": 93.9,
+    "Speed": 3087.0,
+    "PowerConsumption": 268.49
+  },
+  {
+    "_id": 40,
+    "Vibration": 4.771,
+    "Temperature": 44.2,
+    "Speed": 2378.0,
+    "PowerConsumption": 200.19
+  },
+  {
+    "_id": 41,
+    "Vibration": 1.214,
+    "Temperature": 34.4,
+    "Speed": 3790.0,
+    "PowerConsumption": 471.95
+  },
+  {
+    "_id": 42,
+    "Vibration": 0.209,
+    "Temperature": 32.0,
+    "Speed": 1988.0,
+    "PowerConsumption": 347.97
+  },
+  {
+    "_id": 43,
+    "Vibration": 4.722,
+    "Temperature": 97.4,
+    "Speed": 2781.0,
+    "PowerConsumption": 286.19
+  },
+  {
+    "_id": 44,
+    "Vibration": 2.206,
+    "Temperature": 100.9,
+    "Speed": 4459.0,
+    "PowerConsumption": 275.13
+  },
+  {
+    "_id": 45,
+    "Vibration": 4.075,
+    "Temperature": 95.4,
+    "Speed": 2374.0,
+    "PowerConsumption": 286.48
+  },
+  {
+    "_id": 46,
+    "Vibration": 1.65,
+    "Temperature": 45.6,
+    "Speed": 1405.0,
+    "PowerConsumption": 84.81
+  },
+  {
+    "_id": 47,
+    "Vibration": 1.414,
+    "Temperature": 51.8,
+    "Speed": 4329.0,
+    "PowerConsumption": 337.31
+  },
+  {
+    "_id": 48,
+    "Vibration": 3.45,
+    "Temperature": 35.8,
+    "Speed": 2134.0,
+    "PowerConsumption": 300.85
+  },
+  {
+    "_id": 49,
+    "Vibration": 4.133,
+    "Temperature": 54.3,
+    "Speed": 845.0,
+    "PowerConsumption": 235.12
+  },
+  {
+    "_id": 50,
+    "Vibration": 0.201,
+    "Temperature": 87.0,
+    "Speed": 3516.0,
+    "PowerConsumption": 227.22
+  },
+  {
+    "_id": 51,
+    "Vibration": 1.888,
+    "Temperature": 45.8,
+    "Speed": 2408.0,
+    "PowerConsumption": 450.68
+  },
+  {
+    "_id": 52,
+    "Vibration": 3.751,
+    "Temperature": 31.6,
+    "Speed": 2400.0,
+    "PowerConsumption": 135.43
+  },
+  {
+    "_id": 53,
+    "Vibration": 0.209,
+    "Temperature": 26.9,
+    "Speed": 2754.0,
+    "PowerConsumption": 81.03
+  },
+  {
+    "_id": 54,
+    "Vibration": 4.107,
+    "Temperature": 67.3,
+    "Speed": 1710.0,
+    "PowerConsumption": 298.17
+  },
+  {
+    "_id": 55,
+    "Vibration": 2.688,
+    "Temperature": 60.4,
+    "Speed": 2939.0,
+    "PowerConsumption": 139.11
+  },
+  {
+    "_id": 56,
+    "Vibration": 1.336,
+    "Temperature": 68.0,
+    "Speed": 1122.0,
+    "PowerConsumption": 252.19
+  },
+  {
+    "_id": 57,
+    "Vibration": 0.385,
+    "Temperature": 110.8,
+    "Speed": 3875.0,
+    "PowerConsumption": 397.65
+  },
+  {
+    "_id": 58,
+    "Vibration": 3.109,
+    "Temperature": 96.5,
+    "Speed": 718.0,
+    "PowerConsumption": 351.05
+  },
+  {
+    "_id": 59,
+    "Vibration": 4.243,
+    "Temperature": 91.1,
+    "Speed": 3946.0,
+    "PowerConsumption": 267.48
+  },
+  {
+    "_id": 60,
+    "Vibration": 2.016,
+    "Temperature": 73.7,
+    "Speed": 2307.0,
+    "PowerConsumption": 183.84
+  },
+  {
+    "_id": 61,
+    "Vibration": 0.133,
+    "Temperature": 81.1,
+    "Speed": 4338.0,
+    "PowerConsumption": 390.38
+  },
+  {
+    "_id": 62,
+    "Vibration": 1.335,
+    "Temperature": 85.1,
+    "Speed": 753.0,
+    "PowerConsumption": 468.14
+  },
+  {
+    "_id": 63,
+    "Vibration": 0.664,
+    "Temperature": 110.2,
+    "Speed": 4525.0,
+    "PowerConsumption": 373.13
+  },
+  {
+    "_id": 64,
+    "Vibration": 1.394,
+    "Temperature": 46.7,
+    "Speed": 3076.0,
+    "PowerConsumption": 125.98
+  },
+  {
+    "_id": 65,
+    "Vibration": 4.057,
+    "Temperature": 98.3,
+    "Speed": 552.0,
+    "PowerConsumption": 336.54
+  },
+  {
+    "_id": 66,
+    "Vibration": 1.874,
+    "Temperature": 70.9,
+    "Speed": 3852.0,
+    "PowerConsumption": 363.2
+  },
+  {
+    "_id": 67,
+    "Vibration": 4.348,
+    "Temperature": 114.0,
+    "Speed": 1404.0,
+    "PowerConsumption": 84.95
+  },
+  {
+    "_id": 68,
+    "Vibration": 1.633,
+    "Temperature": 80.1,
+    "Speed": 2517.0,
+    "PowerConsumption": 58.03
+  },
+  {
+    "_id": 69,
+    "Vibration": 0.902,
+    "Temperature": 53.4,
+    "Speed": 2979.0,
+    "PowerConsumption": 93.18
+  },
+  {
+    "_id": 70,
+    "Vibration": 1.805,
+    "Temperature": 51.4,
+    "Speed": 4266.0,
+    "PowerConsumption": 241.75
+  },
+  {
+    "_id": 71,
+    "Vibration": 1.673,
+    "Temperature": 103.1,
+    "Speed": 2378.0,
+    "PowerConsumption": 465.14
+  },
+  {
+    "_id": 72,
+    "Vibration": 4.804,
+    "Temperature": 58.0,
+    "Speed": 638.0,
+    "PowerConsumption": 427.84
+  },
+  {
+    "_id": 73,
+    "Vibration": 1.702,
+    "Temperature": 114.0,
+    "Speed": 4358.0,
+    "PowerConsumption": 451.2
+  },
+  {
+    "_id": 74,
+    "Vibration": 0.314,
+    "Temperature": 55.1,
+    "Speed": 793.0,
+    "PowerConsumption": 164.45
+  },
+  {
+    "_id": 75,
+    "Vibration": 2.623,
+    "Temperature": 28.3,
+    "Speed": 823.0,
+    "PowerConsumption": 298.27
+  },
+  {
+    "_id": 76,
+    "Vibration": 0.917,
+    "Temperature": 87.8,
+    "Speed": 4959.0,
+    "PowerConsumption": 386.0
+  },
+  {
+    "_id": 77,
+    "Vibration": 2.009,
+    "Temperature": 20.5,
+    "Speed": 1083.0,
+    "PowerConsumption": 81.16
+  },
+  {
+    "_id": 78,
+    "Vibration": 2.419,
+    "Temperature": 80.2,
+    "Speed": 2421.0,
+    "PowerConsumption": 339.35
+  },
+  {
+    "_id": 79,
+    "Vibration": 4.292,
+    "Temperature": 93.2,
+    "Speed": 2667.0,
+    "PowerConsumption": 498.13
+  },
+  {
+    "_id": 80,
+    "Vibration": 1.165,
+    "Temperature": 23.4,
+    "Speed": 3852.0,
+    "PowerConsumption": 443.28
+  },
+  {
+    "_id": 81,
+    "Vibration": 1.218,
+    "Temperature": 63.5,
+    "Speed": 4174.0,
+    "PowerConsumption": 267.72
+  },
+  {
+    "_id": 82,
+    "Vibration": 3.19,
+    "Temperature": 42.5,
+    "Speed": 2108.0,
+    "PowerConsumption": 92.56
+  },
+  {
+    "_id": 83,
+    "Vibration": 0.516,
+    "Temperature": 38.6,
+    "Speed": 811.0,
+    "PowerConsumption": 50.57
+  },
+  {
+    "_id": 84,
+    "Vibration": 3.314,
+    "Temperature": 115.5,
+    "Speed": 1468.0,
+    "PowerConsumption": 403.33
+  },
+  {
+    "_id": 85,
+    "Vibration": 0.576,
+    "Temperature": 51.7,
+    "Speed": 4921.0,
+    "PowerConsumption": 98.89
+  },
+  {
+    "_id": 86,
+    "Vibration": 0.766,
+    "Temperature": 28.1,
+    "Speed": 2588.0,
+    "PowerConsumption": 413.83
+  },
+  {
+    "_id": 87,
+    "Vibration": 0.65,
+    "Temperature": 73.6,
+    "Speed": 3788.0,
+    "PowerConsumption": 158.08
+  },
+  {
+    "_id": 88,
+    "Vibration": 4.17,
+    "Temperature": 39.1,
+    "Speed": 830.0,
+    "PowerConsumption": 429.23
+  },
+  {
+    "_id": 89,
+    "Vibration": 3.049,
+    "Temperature": 30.9,
+    "Speed": 4709.0,
+    "PowerConsumption": 459.23
+  },
+  {
+    "_id": 90,
+    "Vibration": 4.064,
+    "Temperature": 116.4,
+    "Speed": 1831.0,
+    "PowerConsumption": 474.01
+  },
+  {
+    "_id": 91,
+    "Vibration": 1.148,
+    "Temperature": 102.7,
+    "Speed": 3548.0,
+    "PowerConsumption": 194.6
+  },
+  {
+    "_id": 92,
+    "Vibration": 3.406,
+    "Temperature": 91.7,
+    "Speed": 1321.0,
+    "PowerConsumption": 284.57
+  },
+  {
+    "_id": 93,
+    "Vibration": 2.43,
+    "Temperature": 52.6,
+    "Speed": 1529.0,
+    "PowerConsumption": 485.49
+  },
+  {
+    "_id": 94,
+    "Vibration": 4.495,
+    "Temperature": 69.4,
+    "Speed": 4634.0,
+    "PowerConsumption": 53.98
+  },
+  {
+    "_id": 95,
+    "Vibration": 4.323,
+    "Temperature": 116.8,
+    "Speed": 1773.0,
+    "PowerConsumption": 132.51
+  },
+  {
+    "_id": 96,
+    "Vibration": 4.07,
+    "Temperature": 108.3,
+    "Speed": 4087.0,
+    "PowerConsumption": 187.74
+  },
+  {
+    "_id": 97,
+    "Vibration": 2.586,
+    "Temperature": 46.8,
+    "Speed": 2477.0,
+    "PowerConsumption": 231.8
+  },
+  {
+    "_id": 98,
+    "Vibration": 0.625,
+    "Temperature": 54.6,
+    "Speed": 1784.0,
+    "PowerConsumption": 377.51
+  },
+  {
+    "_id": 99,
+    "Vibration": 2.717,
+    "Temperature": 58.7,
+    "Speed": 790.0,
+    "PowerConsumption": 197.07
+  },
+  {
+    "_id": 100,
+    "Vibration": 4.73,
+    "Temperature": 72.6,
+    "Speed": 4497.0,
+    "PowerConsumption": 448.41
+  }
+]

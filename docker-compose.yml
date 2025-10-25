@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: conveyor_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      - MONGO_INITDB_DATABASE=conveyor_data_40
+    networks:
+      - conveyor_network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongo_init:
+    image: mongo:7.0
+    container_name: conveyor_mongo_init
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./usecases/conveyorbelt/other_data.json:/data/other_data.json:ro
+    networks:
+      - conveyor_network
+    command: >
+      bash -c "
+      echo 'Waiting for MongoDB...' &&
+      sleep 5 &&
+      echo 'Importing data into MongoDB...' &&
+      mongoimport --host mongodb:27017 --db conveyor_data_40 --collection health_metrics --file /data/other_data.json --jsonArray &&
+      echo '✓ Database initialized successfully with other_data.json'
+      "
+    restart: "no"
+
+  api_server:
+    build:
+      context: .
+      dockerfile: usecases/conveyorbelt/Dockerfile
+    container_name: conveyor_api_server
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      mongo_init:
+        condition: service_completed_successfully
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./usecases/conveyorbelt:/app/usecases/conveyorbelt:ro
+      - ./api_server.py:/app/api_server.py:ro
+      - model_data:/app/models
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/
+      - DB_NAME=conveyor_data_40
+      - COLLECTION_NAME=health_metrics
+      - TRAINING_DATA_PATH=/app/usecases/conveyorbelt/training_data.json
+      - MODEL_PATH=/app/models/model.joblib
+      - SCALER_PATH=/app/models/scaler.joblib
+      - PYTHONUNBUFFERED=1
+    networks:
+      - conveyor_network
+    command: python -u /app/api_server.py
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  mongodb_data:
+    driver: local
+  model_data:
+    driver: local
+
+networks:
+  conveyor_network:
+    driver: bridge
