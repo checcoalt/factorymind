@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./dashboard/data.json:/tmp/data.json:ro
+    environment:
+      MONGO_INITDB_DATABASE: FactoryMindDB
+
+  dashboard:
+    build: ./dashboard
+    container_name: streamlit_dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mongodb
+    environment:
+      MONGO_URI: "mongodb://mongodb:27017/FactoryMindDB"
+
+volumes:
+  mongo_data:
