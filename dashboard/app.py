@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit_option_menu
 from streamlit_option_menu import option_menu
 from db_reader import fetch_mongo_data  # import dalla tua utility
+import time
 
 # --- Sidebar ---
 with st.sidebar:
@@ -68,6 +69,14 @@ if selected == "Chat":
     if prompt := st.chat_input():
         st.session_state.messages.append({"role": "user", "content": prompt})
         st.chat_message("user").write(prompt)
+        
+        # Attendi 3 secondi
+        time.sleep(3)
+        
+        # Risposta automatica
+        response = "La macchina è in salute! La temperatura della macchina è di 35°C, in linea con lo standard, nonostante sia una giornata molto calda. Il sistema di raffreddamento sta funzionando bene. Buon lavoro!"
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.chat_message("assistant").write(response)
 
 # --- Contact Page ---
 if selected == "Contact Us":

@@ -1,0 +1,7 @@
+Analyze the user's request, given this list of functions.
+- call_rag: this function is used when the user requests data that is available in the knowledge base, such as documentation, historical data, regulations, policies.
+- call_regression: this function is used when the user requests predictions on device data.
+- call_computervision: this function is used when the user specifically requests changes and processing of images.
+Return sequentially for each of the functions listed, a True or False value representing the relevance of the query to the listed function.
+Each request may require one or more functions.
+The response must contain only and exclusively the values for each listed function, without adding new ones.
